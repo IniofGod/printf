@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -18,7 +17,9 @@ unsigned int handl_buf(char *buf, char c, unsigned int ibuf)
 	buf[ibuf] = c;
 	ibuf++;
 	return (ibuf);
-}#include "main.h"
+}
+
+#include "main.h"
 
 /**
  * handl_buf - concatenates the buffer characters
